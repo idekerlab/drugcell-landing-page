@@ -1,0 +1,66 @@
+#header {
+    background: #242428;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    min-height: 4.5em;
+}
+
+#headerContentDiv {
+    margin: auto 0;
+    padding: 0.5rem;
+    display: block;
+}
+
+#headerContent {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -60%);
+    text-align: right;
+    margin-right: 2.5em;
+    float: right;
+}
+
+.externalLink {
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 0.7em;
+    font-weight: 100;
+}
+
+#ucsdLink {
+    font-family: serif;
+}
+
+#hyphenLink {
+    font-family: sans-serif;
+}
+
+#idekerLink {
+    font-family: sans-serif;
+}
+
+#idekerLink:hover {
+    font-weight: 700;
+    font-size: 0.677em;
+}
+
+#ucsdLink:hover {
+    font-weight: 700;
+    font-size: 0.681em;
+}
+
+#ccmiLogo {
+    margin-left: 5em;
+    width: 10em;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#ccmiLogo:hover {
+    width: 10.6em;
+    margin-left: 4.7em;
+    cursor: pointer;
+}
