@@ -25,11 +25,11 @@ const IndexPage = () => (
               <div className='buttonDiv'>
                 <form
                   target='_blank'
-                  action='http://drugcell-dev.ndexbio.org/'
+                  action='http://drugcell-oracle-dev.ndexbio.org/'
                 >
                   <button type="submit">
                     <span className='buttonText'>
-                      Explore Results
+                      DrugCell Oracle
                     </span>
                   </button>
                 </form>
