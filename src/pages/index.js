@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'gatsby'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import cy3logo from '../images/cy3logoOrange.svg'
@@ -34,7 +34,8 @@ const IndexPage = () => (
                   </button>
                 </form>
               </div>
-              
+
+              {/*}
               <div className='buttonDiv'>
                 <form
                   target='_blank' 
@@ -46,7 +47,7 @@ const IndexPage = () => (
                   </button>
                 </form>
               </div>
-              
+
               <div className='buttonDiv'>
                 <form
                   target='_blank' 
@@ -58,7 +59,7 @@ const IndexPage = () => (
                   </button>
                 </form>
               </div>
-
+              {*/}
             </div>
           </div>
         </div>
@@ -72,12 +73,12 @@ const IndexPage = () => (
         </div>
       </div>
       <div id='bottomText'>
-        {"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+        {"While deep learning framework has been applied to predict cellular response to cancer therapies, a fundamental problem of being a “black-box” has not yet been fully addressed. To build an interpretable deep learning-based model, we developed DrugCell, a \“visible\” neural network that predicts anti-cancer drug responses by modeling the hierarchical organization of a human cancer cell. During the training phase, genotypes and compound structures induce differential patterns of subsystem activity, enabling in silico investigations of the molecular mechanisms underlying cancer drug response which is crucial to the novel drug discovery and better implementation of precision medicine."}
       </div>
     </div>
-    
-    
-    
+
+
+
     {/*<h1>Project Name</h1>
     <p>(You can add any contents here).</p>
     <p>Now go build something great.</p>

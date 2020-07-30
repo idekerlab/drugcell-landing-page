@@ -22,7 +22,8 @@
 }
 
 #buttonsDiv {
-    margin-top: 7.5em;
+    margin-top: 6.5em;
+    margin-bottom: 7.5em;
 }
 
 button {
@@ -67,7 +68,7 @@ button:hover {
 
 #buttonsContainer {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     margin-top: -7em;
 }
 
