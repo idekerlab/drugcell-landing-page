@@ -25,41 +25,50 @@ const IndexPage = () => (
               <div className='buttonDiv'>
                 <form
                   target='_blank'
-                  action='http://drugcell-oracle-dev.ndexbio.org/'
+                  action='http://drugcell.ucsd.edu/oracle/'
                 >
                   <button type="submit">
-                    <span className='buttonText'>
+                    <div className='buttonText'>
                       DrugCell Oracle
-                    </span>
+                    </div>
+                    <div className='buttonCaption'>
+                      Browse VNN Predictions
+                    </div>
                   </button>
                 </form>
               </div>
 
-              {/*}
+            
               <div className='buttonDiv'>
                 <form
                   target='_blank' 
-                  action="">
+                  action="http://drugcell.ucsd.edu/analyze/finddrugs/">
                   <button type="submit">
-                    <span className='buttonText'>
-                      Application B
-                    </span>
+                    <div className='buttonText'>
+                      Find Drugs
+                    </div>
+                    <div className='buttonCaption'>
+                      Analyze a genome using DrugCell
+                    </div>
                   </button>
                 </form>
               </div>
 
               <div className='buttonDiv'>
-                <form
+              <form
                   target='_blank' 
-                  action="">
+                  action="http://drugcell.ucsd.edu/analyze/finddrugs/">
                   <button type="submit">
-                    <span className='buttonText'>
-                      Application C
-                    </span>
+                    <div className='buttonText'>
+                      Find Cells
+                    </div>
+                    <div className='buttonCaption'>
+                      Analyze a drug using DrugCell
+                    </div>
                   </button>
                 </form>
               </div>
-              {*/}
+              
             </div>
           </div>
         </div>

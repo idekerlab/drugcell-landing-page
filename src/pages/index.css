@@ -39,20 +39,28 @@ button {
     height: 4.75rem;
     padding: 0;
     vertical-align: middle;
+    flex-direction: column;
     background-color: rgb(255,140,0, 1);
     color: white;
 }
 
 button:hover {
     background-color: #FFFFFF;
-    color: rgb(255,140,0, 0.9);
+    color: rgba(255,140,0, 0.9);
     font-weight: 800;
     cursor: pointer;
 }
 
 .buttonText {
     display: inline-block;
-    margin: auto;
+    line-height: 41px;
+    margin: auto
+}
+
+.buttonCaption {
+    font-size: medium;
+    line-height: 30px;
+    margin: auto
 }
 
 #topDiv {
