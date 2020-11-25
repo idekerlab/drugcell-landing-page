@@ -57,7 +57,7 @@ const IndexPage = () => (
               <div className='buttonDiv'>
               <form
                   target='_blank' 
-                  action="http://drugcell.ucsd.edu/analyze/finddrugs/">
+                  action="http://drugcell.ucsd.edu/analyze/findcells/">
                   <button type="submit">
                     <div className='buttonText'>
                       Find Cells
