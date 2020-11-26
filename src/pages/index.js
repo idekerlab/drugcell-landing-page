@@ -25,11 +25,11 @@ const IndexPage = () => (
               <div className='buttonDiv'>
                 <form
                   target='_blank'
-                  action='http://drugcell.ucsd.edu/oracle/'
+                  action='http://drugcell.ucsd.edu/findpathways/'
                 >
                   <button type="submit">
                     <div className='buttonText'>
-                      DrugCell Oracle
+                      Find Pathways
                     </div>
                     <div className='buttonCaption'>
                       Browse VNN Predictions
@@ -49,21 +49,6 @@ const IndexPage = () => (
                     </div>
                     <div className='buttonCaption'>
                       Analyze a genome using DrugCell
-                    </div>
-                  </button>
-                </form>
-              </div>
-
-              <div className='buttonDiv'>
-              <form
-                  target='_blank' 
-                  action="http://drugcell.ucsd.edu/analyze/findcells/">
-                  <button type="submit">
-                    <div className='buttonText'>
-                      Find Cells
-                    </div>
-                    <div className='buttonCaption'>
-                      Analyze a drug using DrugCell
                     </div>
                   </button>
                 </form>
