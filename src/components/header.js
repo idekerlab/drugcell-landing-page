@@ -8,7 +8,9 @@ import ccmi from '../images/ccmi2.png'
 const Header = ({ siteTitle }) => (
   <header id='header'>
     <div id='headerContentDiv'>
-      
+    <a href='https://ccmi.org/' target='_blank' rel='noopener noreferrer'>
+      <img src={ccmi} alt='CCMI Logo' id='ccmiLogo' />
+    </a>
       <h1 id='headerContent'>
         <a 
           id='ucsdLink'
