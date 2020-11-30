@@ -14,10 +14,11 @@ const IndexPage = () => (
         <div id='topDivContents'>
           <div id='titlesDiv'>
             <div id='titleDiv'>
-              DrugCell
+              DrugCell Oracle
             </div>
             <div id='subtitleDiv'>
-              Neural Net Predictions of Drug Response
+              Interpretable Deep Learning for Drug Response<br></br>
+              via Visible Neural Networks
             </div>
           </div>
           <div id='buttonsContainer'>
@@ -29,23 +30,23 @@ const IndexPage = () => (
                 >
                   <button type="submit">
                     <div className='buttonText'>
-                      Find Pathways
+                      DrugCell Analysis for Drugs
                     </div>
                     <div className='buttonCaption'>
-                      Browse VNN Predictions
+                      Browse DrugCell predictions for synergistic drug targets
                     </div>
                   </button>
                 </form>
               </div>
 
-            
+
               <div className='buttonDiv'>
                 <form
-                  target='_blank' 
+                  target='_blank'
                   action="http://drugcell.ucsd.edu/analyze/finddrugs/">
                   <button type="submit">
                     <div className='buttonText'>
-                      Find Drugs
+                      Analyze Genomes
                     </div>
                     <div className='buttonCaption'>
                       Analyze a genome using DrugCell
@@ -53,7 +54,7 @@ const IndexPage = () => (
                   </button>
                 </form>
               </div>
-              
+
             </div>
           </div>
         </div>
@@ -67,7 +68,14 @@ const IndexPage = () => (
         </div>
       </div>
       <div id='bottomText'>
-        {"While deep learning framework has been applied to predict cellular response to cancer therapies, a fundamental problem of being a “black-box” has not yet been fully addressed. To build an interpretable deep learning-based model, we developed DrugCell, a \“visible\” neural network that predicts anti-cancer drug responses by modeling the hierarchical organization of a human cancer cell. During the training phase, genotypes and compound structures induce differential patterns of subsystem activity, enabling in silico investigations of the molecular mechanisms underlying cancer drug response which is crucial to the novel drug discovery and better implementation of precision medicine."}
+        <p> While deep learning framework has been applied to predict cellular response to cancer therapies, a fundamental problem of being a “black-box” has not yet been fully addressed. To build an interpretable deep learning-based model, we developed DrugCell, a \“visible\” neural network (VNN) that predicts anti-cancer drug responses by modeling the hierarchical organization of a human cancer cell. During the training phase, genotypes and compound structures induce differential patterns of subsystem activity, enabling in silico investigations of the molecular mechanisms underlying cancer drug response which is crucial to the novel drug discovery and better implementation of precision medicine. </p>
+
+          <p>Please cite the following when utilizing this application in your study:</p>
+          <ul>
+          <li>Kuenzi BM, Park J, Fong SH, Sanchez KS, Lee J, Kreisberg JF, Ma J, Ideker T. Predicting drug response and synergy using a deep learning model of human cancer cells. Cancer Cell. 2020 Nov 9;38(5):672-84. </li>
+         
+          <li>Ma J, Yu MK, Fong S, Ono K, Sage E, Demchak B, Sharan R, Ideker T. Using deep learning to model the hierarchical structure and function of a cell. Nature methods. 2018 Apr;15(4):290.</li>
+        </ul>
       </div>
     </div>
 

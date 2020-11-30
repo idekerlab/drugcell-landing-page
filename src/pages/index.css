@@ -9,7 +9,7 @@
 }
 
 #titleDiv {
-    font-size: 120px; 
+    font-size: 80px; 
     line-height: 180px;  
 } 
 
@@ -35,7 +35,7 @@ button {
     display: flex;
     align-items: center;
     text-align: center;
-    width: 18.75rem;
+    width: 24.75rem;
     height: 4.75rem;
     padding: 0;
     vertical-align: middle;
