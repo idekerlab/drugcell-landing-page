@@ -37,7 +37,7 @@ const IndexPage = () => (
                 >
                   <button type="submit">
                     <div className='buttonText'>
-                      DrugCell Analysis for Drugs
+                      VNN Browser
                     </div>
                     <div className='buttonCaption'>
                       Browse DrugCell predictions for synergistic drug targets
@@ -54,10 +54,10 @@ const IndexPage = () => (
                   action="http://drugcell.ucsd.edu/analyze/finddrugs/">
                   <button >
                     <div className='buttonText'>
-                      Find Drugs
+                      Genotype Analyzer
                     </div>
                     <div className='buttonCaption'>
-                      Analyze a genotype using DrugCell
+                      Simulate response of genotype to drugs
                     </div>
                   </button>
                 </form>
