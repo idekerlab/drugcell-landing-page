@@ -10,7 +10,7 @@
 
 #titleDiv {
     font-size: 80px; 
-    line-height: 180px;  
+    line-height: 100px;  
 } 
 
 #subtitleDiv {
@@ -19,6 +19,7 @@
     position: relative;
     top: 5px;
     left: -10px;
+    line-height: 44px;  
 }
 
 #buttonsDiv {
@@ -53,14 +54,16 @@ button:hover {
 
 .buttonText {
     display: inline-block;
-    line-height: 41px;
-    margin: auto
+    line-height: 38px;
+    margin: auto;
+    margin-bottom: 0px;
 }
 
 .buttonCaption {
     font-size: medium;
     line-height: 30px;
-    margin: auto
+    margin: auto;
+    margin-top: 0px;
 }
 
 #topDiv {
