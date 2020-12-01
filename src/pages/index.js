@@ -1,10 +1,16 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import LinkOut from '../components/LinkOut';
 import Layout from '../components/layout'
+import Panel from '../components/panel'
 import cy3logo from '../images/cy3logoOrange.svg'
 import SEO from '../components/seo'
 import './index.css'
+
+import styles from './pageStyles/index.module.css';
+
+const contrastBackgroundColor = 'rgba(65,182,255, 0.25)';
+const contrastTextColor = 'black';
 
 const IndexPage = () => (
   <Layout>
@@ -25,6 +31,7 @@ const IndexPage = () => (
             <div id='buttonsDiv'>
               <div className='buttonDiv'>
                 <form
+                  method='post'
                   target='_blank'
                   action='http://drugcell.ucsd.edu/findpathways/'
                 >
@@ -42,9 +49,10 @@ const IndexPage = () => (
 
               <div className='buttonDiv'>
                 <form
+                  method='post'
                   target='_blank'
                   action="http://drugcell.ucsd.edu/analyze/finddrugs/">
-                  <button type="submit">
+                  <button >
                     <div className='buttonText'>
                       Find Drugs
                     </div>
@@ -61,7 +69,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-  <!-- old version of bottom texts
+  {/* old version of bottom texts
     <div id='bottomDiv'>
       <div id='bottomTitle'>
         <div id='bottomTitleText'>
@@ -79,9 +87,9 @@ const IndexPage = () => (
         </ul>
       </div>
     </div>
-    -->
+  */}
             
-    <div id='bottomDiv'>
+    <div className={styles.flexChild}>
         <Panel backgroundColor='white' textColor='rgba(0, 0, 0, 0.8)'>  
         <h2>What is DrugCell?</h2>
         <p> While deep learning framework has been applied to predict cellular response to cancer therapies, 
@@ -105,7 +113,7 @@ const IndexPage = () => (
         </p>
         </Panel>
       
-        <Panel backgroundColor={contrastBackgroundColor} textColor={contrastTextColor}>
+        <Panel backgroundColor={'white'} textColor={contrastTextColor}>
         <h2>Publications</h2>
           <p> Please cite the following when utilizing this application in your study:
           <ul>
