@@ -24,7 +24,7 @@ const IndexPage = () => (
             </div>
             <div id='subtitleDiv'>
               Interpretable Deep Learning for Drug Response<br></br>
-              via Visible Neural Networks
+              via Visible Neural Networks (VNNs)
             </div>
           </div>
           <div id='buttonsContainer'>
@@ -105,7 +105,7 @@ const IndexPage = () => (
         <h2>Code Availability</h2>
         <p>
             The codebase for training a DrugCell model along with instructions to set up the required computational environment is published in 
-            a GitHub repository. The Github repository also contains a pre-trained DrugCell model that we used our analysis and example command lines. 
+            a GitHub repository. The Github repository also contains a pre-trained DrugCell model that we used for our analysis and example command lines. 
             The DrugCell GitHub repository can be found at: <br/>
             <LinkOut link='https://github.com/idekerlab/DrugCell'>
                 https://github.com/idekerlab/DrugCell
@@ -116,6 +116,8 @@ const IndexPage = () => (
         <Panel backgroundColor={'white'} textColor={contrastTextColor}>
         <h2>Publications</h2>
           <p> Please cite the following when utilizing this application in your study:
+          </p>
+          <p>
           <ul>
           <li>Kuenzi BM, Park J, Fong SH, Sanchez KS, Lee J, Kreisberg JF, Ma J, Ideker T. Predicting drug response and synergy using a deep learning model of human cancer cells. Cancer Cell. 2020 Nov 9;38(5):672-84. </li>
           <li>Ma J, Yu MK, Fong S, Ono K, Sage E, Demchak B, Sharan R, Ideker T. Using deep learning to model the hierarchical structure and function of a cell. Nature methods. 2018 Apr;15(4):290.</li>
