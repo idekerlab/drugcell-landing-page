@@ -57,7 +57,7 @@ const IndexPage = () => (
                       Genotype Analyzer
                     </div>
                     <div className='buttonCaption'>
-                      Simulate response of genotype to drugs
+                      Analyze response of genotype to drugs
                     </div>
                   </button>
                 </form>
@@ -94,11 +94,12 @@ const IndexPage = () => (
         <h2>What is DrugCell?</h2>
         <p> DrugCell is a “visible” neural network (VNN) that predicts anti-cancer
         drug responses by modeling the hierarchical organization of a human
-        cancer cell. During the training phase, genotypes and drug structures
+        cancer cell. Genotypes and drug structures
         induce differential patterns of activity on cellular subsystems,
         enabling in silico investigations of the molecular mechanisms
         underlying cancer drug response. This web portal (DrugCell Oracle)
-        provides access to the DrugCell model and can be used in two ways.
+        provides access to the DrugCell model and can be used in two ways,
+        via the VNN Browser and the Genotype Analyzer.
         </p>
       </Panel>
 
@@ -121,7 +122,7 @@ portal provided by this website.
           </p>
         <p>
           <ul>
-            <li><i>Publication In Process</i></li>
+            <li>Park J, Kuenzi BM, Otasek D, Churas C, Liu S, Pratt D, Kreisberg JF and Ideker T, DrugCell Oracle: A web portal for prediction and pathway interpretation of drug response and synergy <i>(Publication In Process)</i></li>
             <li>Kuenzi BM, Park J, Fong SH, Sanchez KS, Lee J, Kreisberg JF, Ma J,
 Ideker T. Predicting drug response and synergy using a deep learning
 model of human cancer cells. Cancer Cell. 2020 Nov 9;38(5):672-84.</li>
