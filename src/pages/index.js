@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import LinkOut from '../components/LinkOut';
 import Layout from '../components/layout'
 import Panel from '../components/panel'
-import cy3logo from '../images/cy3logoOrange.svg'
 import SEO from '../components/seo'
 import './index.css'
 
@@ -33,7 +32,7 @@ const IndexPage = () => (
                 <form
                   method='post'
                   target='_blank'
-                  action='http://drugcell.ucsd.edu/findpathways/'
+                  action='https://drugcell.ucsd.edu/findpathways/'
                 >
                   <button type="submit">
                     <div className='buttonText'>
