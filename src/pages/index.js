@@ -50,7 +50,7 @@ const IndexPage = () => (
                 <form
                   method='post'
                   target='_blank'
-                  action="http://drugcell.ucsd.edu/analyze/finddrugs/">
+                  action="https://drugcell.ucsd.edu/analyze/finddrugs/">
                   <button >
                     <div className='buttonText'>
                       Genotype Analyzer

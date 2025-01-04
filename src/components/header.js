@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
         <a
           id='hyphenLink'
           className='externalLink'
-          href='http://idekerlab.ucsd.edu'
+          href='https://idekerlab.ucsd.edu'
           target='_blank'  
         >
           {' - '}
@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
         <a 
           id='idekerLink'
           className='externalLink'
-          href='http://idekerlab.ucsd.edu'
+          href='https://idekerlab.ucsd.edu'
           target='_blank'
         >
           Ideker Lab
